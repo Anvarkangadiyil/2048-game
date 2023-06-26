@@ -8,7 +8,6 @@ use crossterm::{
 };
 use rand::{Rng, seq::SliceRandom};
 
-
 use super::display;
 
 
@@ -19,6 +18,8 @@ use super::display;
    pub score:i32,  
 }
 impl Game {
+
+    //function to initiate Game 
     pub fn new() -> Game {
         Game {
             board:[[0;4];4],
@@ -44,7 +45,7 @@ impl Game {
         execute!(stdout, Hide).unwrap();
 
 
-        // Clear the terminal
+        // to Clear the terminal
         execute!(stdout, Clear(ClearType::All)).unwrap();
 
         //to place cusor in top  of terminal
@@ -73,8 +74,6 @@ impl Game {
                     _ => TermColor::DarkMagenta,
                 };
 
-                // Print the left border of the cell
-                execute!(stdout, SetBackgroundColor(background_color)).unwrap();
 
                 // Set the background color and print the number
                 execute!(

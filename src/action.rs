@@ -2,6 +2,8 @@ use super::game;
 use crossterm::event::KeyCode;
 use game::Game;
 
+//action when left key is clicked
+
 pub fn left(game: &mut Game) {
     for row in 0..4 {
         let mut merged = [false; 4];
@@ -28,6 +30,8 @@ pub fn left(game: &mut Game) {
 
     game.display();
 }
+
+//action when right key arrow 
 
 pub fn right(game: &mut Game) {
     for row in 0..4 {
@@ -56,6 +60,8 @@ pub fn right(game: &mut Game) {
     game.display();
 }
 
+//action when up key is clicked
+
 pub fn up(game: &mut Game) {
     for col in 0..4 {
         let mut merged = [false; 4];
@@ -83,6 +89,7 @@ pub fn up(game: &mut Game) {
     game.display();
 }
 
+//action when down key is clicked
 pub fn down(game: &mut Game) {
     for col in 0..4 {
         let mut merged = [false; 4];
@@ -110,6 +117,7 @@ pub fn down(game: &mut Game) {
     game.display();
 }
 
+//fuction to check game won or not
 pub fn has_won(game: &mut Game) -> bool {
     for row in 0..4 {
         for col in 0..4 {
@@ -121,6 +129,7 @@ pub fn has_won(game: &mut Game) -> bool {
     false
 }
 
+//function to check game lose or not
 pub fn has_defeat(game: &mut Game) -> bool {
     for row in 0..4 {
         for col in 0..4 {
@@ -138,6 +147,7 @@ pub fn has_defeat(game: &mut Game) -> bool {
     true
 }
 
+//function that decide which action fuction to be called based on key 
 pub fn movement(game: &mut Game, key: KeyCode) {
     match key {
         KeyCode::Up | KeyCode::Char('k') => up(game),

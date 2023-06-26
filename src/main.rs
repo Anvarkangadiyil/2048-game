@@ -7,16 +7,18 @@ use game::*;
 
 
 
-
 fn main() -> Result<(), std::io::Error> {
-  
+    
+    
     let mut game = Game::new();
+
     crossterm::terminal::enable_raw_mode()?;
 
     game.display();
     
     loop {
         if crossterm::event::poll(Duration::from_millis(50))?{
+        //key listener    
         match read()? {
             Event::Key(KeyEvent {
                 code: KeyCode::Char('q'),
