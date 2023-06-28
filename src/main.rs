@@ -1,7 +1,7 @@
 mod action;
 mod game;
 mod display;
-use std::{time::Duration};
+use std::{time::Duration, process::exit};
 use crossterm::{event::{read, Event, KeyCode, KeyEvent, KeyEventKind, KeyEventState, KeyModifiers}};
 use game::*;
 
@@ -37,6 +37,7 @@ fn main() -> Result<(), std::io::Error> {
                     display::to_display_won();
                 } else if action::has_defeat(&mut game) {
                     display::to_display_lose();
+                    exit(0);
                 } else {
                     action::movement(&mut game, code);
                 }

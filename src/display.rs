@@ -8,14 +8,14 @@ pub fn footer(){
 
 //to display lose message
 pub fn to_display_lose(){
+    println!("You Lose 😥.Better luck next time 😉");
     println!();
-    println!("You Lose 😥 Enter ESC or q for quit");
 }
 
 //to display won message
 pub fn to_display_won(){
     println!();
-    println!("🎉🎊You Won🥇(*^_^*)")
+    println!("🎉🎊You Won🥇(*^_^*)🏆")
 
 }
 
