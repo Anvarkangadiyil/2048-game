@@ -150,10 +150,10 @@ pub fn has_defeat(game: &mut Game) -> bool {
 //function that decide which action fuction to be called based on key 
 pub fn movement(game: &mut Game, key: KeyCode) {
     match key {
-        KeyCode::Up | KeyCode::Char('k') => up(game),
-        KeyCode::Left | KeyCode::Char('h') => left(game),
-        KeyCode::Right | KeyCode::Char('l') => right(game),
-        KeyCode::Down | KeyCode::Char('j') => down(game),
+        KeyCode::Up | KeyCode::Char('w') => up(game),
+        KeyCode::Left | KeyCode::Char('a') => left(game),
+        KeyCode::Right | KeyCode::Char('d') => right(game),
+        KeyCode::Down | KeyCode::Char('s') => down(game),
         _ => println!(""),
     }
 }
