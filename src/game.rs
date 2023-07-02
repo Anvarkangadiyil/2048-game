@@ -61,10 +61,10 @@ impl Game {
             for number in row {
                 // Set the background color based on the number
                 let background_color = match number {
-                    0 => TermColor::DarkGrey,
-                    2 => TermColor::DarkRed,
-                    4 => TermColor::Green,
-                    8 => TermColor::DarkBlue,
+                    0 =>TermColor::DarkGrey,
+                    2 =>TermColor::DarkRed,
+                    4 =>TermColor::Green,
+                    8 =>TermColor::DarkBlue,
                     16=>TermColor::DarkCyan,
                     32=>TermColor::Magenta,
                     64=>TermColor::DarkYellow,

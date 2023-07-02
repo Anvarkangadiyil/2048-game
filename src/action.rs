@@ -27,11 +27,10 @@ pub fn left(game: &mut Game) {
             }
         }
     }
-
     game.display();
 }
 
-//action when right key arrow 
+//action when right key arrow
 
 pub fn right(game: &mut Game) {
     for row in 0..4 {
@@ -147,7 +146,7 @@ pub fn has_defeat(game: &mut Game) -> bool {
     true
 }
 
-//function that decide which action fuction to be called based on key 
+//function that decide which action fuction to be called based on key
 pub fn movement(game: &mut Game, key: KeyCode) {
     match key {
         KeyCode::Up | KeyCode::Char('w') => up(game),
