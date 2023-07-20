@@ -30,13 +30,13 @@ This game is designed to run on the following operating systems:
 5. Your goal is to reach the 2048 tile by merging tiles. The game ends when you cannot make any more moves.
 
 ## Screenshot 
-   <table>
+   <table background-color="white">
      <tr>
-       <td>
-          <a href="https://github.com/Anvarkangadiyil/2048-game/blob/main/screenshot/before_lose.png"><img src="https://github.com/Anvarkangadiyil/2048-game/blob/main/screenshot/before_lose.png" alt="lose game"></a>
-       </td>
-       <td>
-   <a href="https://github.com/Anvarkangadiyil/2048-game/blob/main/screenshot/after_lose.png"><img src="https://github.com/Anvarkangadiyil/2048-game/blob/main/screenshot/after_lose.png" alt="lose game"></a>
+       <th>
+             <img src="https://github.com/Anvarkangadiyil/2048-game/blob/main/screenshot/before_lose.png" alt="lose game">
+       </th>
+       <th>
+             <img src="https://github.com/Anvarkangadiyil/2048-game/blob/main/screenshot/after_lose.png" alt="lose game">
        </td>
      </tr>
    </table>
