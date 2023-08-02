@@ -1,10 +1,11 @@
+
 # 2048-game
-This is a Rust implementation of the  2048 game which runs in the terminal
+This is a Rust implementation of the [2048 game](https://en.wikipedia.org/wiki/2048_\(video_game\))  which runs in the terminal.  
 
 ## Requirements
 
-+ Cargo
-+ Rust
++ [`Cargo`](https://www.rust-lang.org/tools/install)
++ [`Rust`](https://www.rust-lang.org/tools/install)
 
 ## Supported Systems
 
@@ -13,13 +14,17 @@ This game is designed to run on the following operating systems:
 - Windows (7, 8, 10)
 - supports all UNIX
 
-## Installation
+## Installation 
+ Open command prompt or windows powershell:
+```bash
+> git clone https://github.com/Anvarkangadiyil/2048-game.git
+> cd  2048-game
+> cargo build --release
+> cargo run --release
 
-> open command prompt or windows powershell<br>
-> git clone https://github.com/Anvarkangadiyil/2048-game.git<br>
-> cd  2048-game<br>
-> cargo build --release<br>
-> cargo run --release<br>
+```
+
+ 
 
 ## How to play  
 
@@ -29,8 +34,10 @@ This game is designed to run on the following operating systems:
 4. After each move, a new tile with a value of 2 or 4 will appear on the board.
 5. Your goal is to reach the 2048 tile by merging tiles. The game ends when you cannot make any more moves.
 
+
 ## Screenshot 
-   <table background-color="white">
+
+ <table background-color="white">
      <tr>
        <th>
              <img src="https://github.com/Anvarkangadiyil/2048-game/blob/main/screenshot/before_lose.png" alt="lose game">
@@ -40,6 +47,8 @@ This game is designed to run on the following operating systems:
        </td>
      </tr>
    </table>
+  
+
 
 ## Contributing
 Contributions are welcome! If you would like to contribute to this project, please follow these steps:  
@@ -49,5 +58,6 @@ Contributions are welcome! If you would like to contribute to this project, plea
 3. Make your changes and commit them with descriptive commit messages.  
 4. Push your changes to your forked repository.  
 5. Submit a pull request to the master branch of the original repository.  
-6. Please ensure that your code follows the existing code style and includes appropriate tests.  
+6. Please ensure that your code follows the existing code style and includes appropriate tests.
+
 
