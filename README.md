@@ -4,8 +4,8 @@ This is a Rust implementation of the [2048 game](https://en.wikipedia.org/wiki/2
 
 ## Requirements
 
-+ [`Cargo`](https://www.rust-lang.org/tools/install)
-+ [`Rust`](https://www.rust-lang.org/tools/install)
+- [`Cargo`](https://www.rust-lang.org/tools/install)
+- [`Rust`](https://www.rust-lang.org/tools/install)
 
 ## Supported Systems
 
@@ -24,12 +24,11 @@ This game is designed to run on the following operating systems:
 
 ```
 
- 
 
 ## How to play  
 
 1. The game board will be displayed in the console, showing a 4x4 grid of numbered tiles.
-2. Use the arrow keys (up, down, left, right) to move the tiles in the corresponding direction.
+2. Use the arrow keys (up, down, left, right) or w,s,a,d to move the tiles in the corresponding direction.
 3. Tiles with the same number will merge when they collide, doubling their value.
 4. After each move, a new tile with a value of 2 or 4 will appear on the board.
 5. Your goal is to reach the 2048 tile by merging tiles. The game ends when you cannot make any more moves.
@@ -40,7 +39,7 @@ This game is designed to run on the following operating systems:
  <table background-color="white">
      <tr>
        <th>
-             <img src="https://github.com/Anvarkangadiyil/2048-game/blob/main/screenshot/before_lose.png" alt="lose game">
+             <img src="https://github.com/Anvarkangadiyil/2048-game/blob/main/screenshot/before_lose.png" alt="before lose game">
        </th>
        <th>
              <img src="https://github.com/Anvarkangadiyil/2048-game/blob/main/screenshot/after_lose.png" alt="lose game">
@@ -61,3 +60,5 @@ Contributions are welcome! If you would like to contribute to this project, plea
 6. Please ensure that your code follows the existing code style and includes appropriate tests.
 
 
+
+ 
