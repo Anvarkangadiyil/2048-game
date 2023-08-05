@@ -11,11 +11,11 @@ This is a Rust implementation of the [2048 game](https://en.wikipedia.org/wiki/2
 
 This game is designed to run on the following operating systems:
 
-- Windows (7, 8, 10)
-- supports all UNIX
+- **Windows (7, 8, 10)**
+- **supports all UNIX**
 
 ## Installation 
- Open command prompt or windows powershell:
+ **Open command prompt or windows powershell:**
 ```bash
 > git clone https://github.com/Anvarkangadiyil/2048-game.git
 > cd  2048-game
