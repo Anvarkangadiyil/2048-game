@@ -59,6 +59,8 @@ Contributions are welcome! If you would like to contribute to this project, plea
 5. Submit a pull request to the master branch of the original repository.  
 6. Please ensure that your code follows the existing code style and includes appropriate tests.
 
+## License
+This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for the details.
 
 
  
